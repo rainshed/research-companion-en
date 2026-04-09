@@ -66,10 +66,10 @@ If installed via symlink (Option B in INSTALL.md), pull the latest changes:
 cd /path/to/research-companion-en && git pull
 ```
 
-For a copied install (Option A), re-run:
+For a copied install (Option A), ask Codex to reinstall:
 
-```bash
-cp -R codex-skills/research-companion "${CODEX_HOME:-$HOME/.codex}/skills/"
+```text
+Reinstall the `research-companion` skill from https://github.com/rainshed/research-companion-en/tree/main/codex-skills/research-companion using the built-in GitHub skill installer, then remind me to restart Codex.
 ```
 
 Then restart Codex.
